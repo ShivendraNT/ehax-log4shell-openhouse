@@ -1,0 +1,20 @@
+# Generated payload artifacts (run attacker/build-payload.sh to create)
+attacker/build/
+attacker/serve/
+attacker/vendor/*.jar
+attacker/logs/
+payload/build/
+
+# Victim runtime files (download server.jar separately; EULA is accepted there)
+victim/server.jar
+victim/server.properties
+victim/eula.txt
+victim/world/
+victim/logs/
+victim/.original-wallpaper
+
+# Local test junk
+test-lab/
+__pycache__/
+*.pyc
+.DS_Store

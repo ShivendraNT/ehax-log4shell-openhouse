@@ -1,0 +1,18 @@
+# EHAX Open House - isolated Minecraft/Log4j lab
+# This file is copied to server.properties on first run.
+# online-mode=false lets the tiny chat sender join without a Microsoft account.
+# network-compression-threshold=-1 keeps the minimal Python protocol client simple.
+online-mode=false
+network-compression-threshold=-1
+server-port=25565
+server-ip=
+max-players=20
+view-distance=4
+spawn-protection=0
+white-list=false
+enforce-whitelist=false
+enable-command-block=false
+enable-rcon=false
+snooper-enabled=false
+player-idle-timeout=0
+motd=EHAX Open House | Log4Shell Demo
